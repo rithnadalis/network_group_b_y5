@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: network_group_b_y5_admin
     ports:
-      - "8070:80"
+      - "8201:80"
 
   client:
     build:
@@ -15,4 +15,4 @@ services:
       dockerfile: Dockerfile
     container_name: network_group_b_y5_client
     ports:
-      - "8090:80"
+      - "8202:80"
